@@ -1,0 +1,203 @@
+/*********************************/
+/***- BASIC SETUP -***/
+/*********************************/
+body {
+    font-family: 'Poppins', sans-serif;
+}
+*, ::after, ::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*********************************/
+/***- REUSABLE COMPONENTS -***/
+/*********************************/
+section {
+    display: block;
+}
+
+.container {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.btn {
+    border: 0;
+    outline: 0;
+    color: #fff;
+    background: #2500f9;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 20px 40px;
+    border-radius: 32px;
+    transition: .3s;
+}
+.btn:hover {
+    cursor: pointer;
+}
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 38px;
+    color: #616368;
+}
+/*********************************/
+/***- NAVIGATION AREA -***/
+/*********************************/
+header {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+}
+nav {
+    display: flex;
+    width: 100%;
+}
+
+.logo {
+    margin-top: 104px;
+}
+
+.nav-right {
+    display: flex;
+    margin-left: auto;
+}
+
+.main-nav {
+    margin-top: 115px;
+    margin-right: 28px;
+}
+
+.main-nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.main-nav ul li {
+    margin: 0 18px;
+}
+
+.main-nav ul li:first-child {
+    margin-left: 0;
+}
+
+.main-nav ul li:last-child {
+    margin-right: 0;
+}
+
+.main-nav ul li a {
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    color: #242f51;
+    text-transform: capitalize;
+}
+
+.main-nav ul li:last-child a {
+    text-transform: uppercase;
+}
+
+.navbar-btn {
+    margin-top: 92px;
+    margin-left: 28px;
+}
+.btn-nav {
+    border: 1px solid transparent;
+}
+.btn-nav:hover {
+    background: transparent;
+    color: #2500f9;
+    border-color: #ddd;
+}
+
+/*********************************/
+/***- SLIDER AREA -***/
+/*********************************/
+.slider-section {
+    background: url(img/slider-img-1.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.slider-text-area {
+    padding-top: 200px;
+    width: 50%;
+    margin-left: 70px;
+}
+
+.slider-text-area h1 {
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 75px;
+    color: #242f51;
+    margin: 0 0 38px 0;
+}
+.editor-choice {
+    background: #e2eaed;
+    border-radius: 32px;
+    display: inline-block;
+    margin-bottom: 12px;
+}
+.editor-choice a {
+    display: flex;
+    align-items: center;
+}
+
+.editor-choice a {
+    text-decoration: none;
+    color: #242f51;
+}
+
+.editor-choice a span {
+    padding: 0 48px 0 10px;
+}
+
+.text-box-btn {
+    display: flex;
+}
+
+.text-box-btn a {
+    margin: 0 10px;
+}
+
+.text-box-btn a:first-child {
+    margin-left: 0;
+}
+
+.text-box-btn a:last-child {
+    margin-right: 0;
+}
+.text-box-btn-nav {
+    border: 1px solid transparent;
+}
+.text-box-btn-nav:hover {
+    background: transparent;
+    border-color: #ddd;
+    color: #2500f9;
+}
+.btn-bg-none {
+    background: transparent;
+    color: #2500f9;
+    padding: 20px 16px
+}
+
+.btn-bg-none:hover {
+    background: #2500f9;
+    color: #fff;
+}
+
+/*********************************/
+/***- SLIDER AREA -***/
+/*********************************/

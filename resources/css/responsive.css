@@ -1,0 +1,28 @@
+/*MINIMUM SCREEN SIZE 0PX AND MAXIMUM SCREEN SIZE 576PX|[ --0 > 576PX-- ]|*/
+@media only screen and (min-width: 576px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+
+/*MINIMUM SCREEN SIZE 577PX AND MAXIMUM SCREEN SIZE 768PX|[ --577px > 768PX-- ]|*/
+@media only screen and (min-width: 768px) {
+    .container {
+        max-width: 740px;
+    }
+}
+
+/*MINIMUM SCREEN SIZE 769PX AND MAXIMUM SCREEN SIZE 992PX|[ --769px > 992PX-- ]|*/
+@media only screen and (min-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+/*MINIMUM SCREEN SIZE 993PX AND MAXIMUM SCREEN SIZE 1200PX|[ --993px > 1200PX-- ]|*/
+@media only screen and (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+}
