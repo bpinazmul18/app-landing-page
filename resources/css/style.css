@@ -39,6 +39,8 @@ section {
     padding: 20px 40px;
     border-radius: 32px;
     transition: .3s;
+    text-decoration: none;
+    display: inline-block;
 }
 .btn:hover {
     cursor: pointer;
@@ -199,5 +201,34 @@ nav {
 }
 
 /*********************************/
-/***- SLIDER AREA -***/
+/***- TRUSTED BY COMPANY SECTION -***/
 /*********************************/
+.trust-section {
+    background: #fff;
+    padding-top: 114px;
+    padding-bottom: 80px;
+}
+.trusted-section-content-area{
+    width: calc(100% - 200px);
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.trust-section-title {
+    text-align: center;
+    margin-bottom: 38px;
+    width: 100%;
+    text-align: center;
+}
+.trust-section-title h2 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #242f51;
+}
+
+.trust-section-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
