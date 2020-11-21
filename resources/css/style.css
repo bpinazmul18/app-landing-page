@@ -232,3 +232,77 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
+
+/*********************************/
+/***- FEATURES SECTION -***/
+/*********************************/
+.features-section {
+    padding: 60px 0;
+    background: #fff;
+}
+.features-content-area {
+    display: flex;
+}
+.features-left-content {
+    width: calc(50% + 80px);
+    margin-left: -80px;
+}
+
+.features-left-content img {
+    width: 100%;
+}
+
+.features-right-content {
+    width: calc(42% - 40px);
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+.features-text-box-single-item {
+    display: flex;
+}
+
+.features-text-box-icon {
+    margin-right: 32px;
+    align-self: center;
+}
+
+.features-section-title {
+    margin-bottom: 92px;
+}
+
+.features-section-title h2{
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 46px;
+    color: #242f51;
+    margin-bottom: 26px;
+}
+
+.features-section-title .lead {
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 0;
+}
+
+.features-text-box-content h4 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 58px;
+}
+.features-text-box-content .fast-performance {
+    color: #f55767;
+}
+
+.features-text-box-content .prototyping {
+    color: #2563ff;
+}
+
+.features-text-box-content .vector-editing {
+    color: #40975f;
+}
+
+.features-text-box-content .lead {
+    font-size: 16px;
+    line-height: 26px;
+}
