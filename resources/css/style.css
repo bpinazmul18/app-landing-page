@@ -593,5 +593,9 @@ p.lead-extends {
 .unlimited-section-box-single-item:nth-child(even) {
     margin-left: 50px;
 }
+.see-all-btn {
+    margin-top: 50px;
+    padding: 20px 58px;
+}
 
 
