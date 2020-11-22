@@ -174,7 +174,7 @@ nav.sticky {
     display: flex;
     align-items: center;
     width: 100%;
-    paddi
+    padding-bottom: 80px;
 }
 .slider-text-area {
     padding-top: 200px;
