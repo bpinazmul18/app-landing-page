@@ -1,6 +1,9 @@
 /*********************************/
 /***- BASIC SETUP -***/
 /*********************************/
+html {
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Poppins', sans-serif;
 }
@@ -118,6 +121,30 @@ nav {
     background: transparent;
     color: #2500f9;
     border-color: #ddd;
+}
+
+/*STICKY NAV*/
+nav.sticky {
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(248, 208, 215, 0.7);
+    position: fixed;
+    transition: 0.3s;
+}
+
+.sticky a.logo {
+    margin-top: 0;
+    padding: 22px 0;
+}
+.sticky .main-nav {
+    margin-top: 0;
+    padding: 30px 0;
+}
+
+.sticky .navbar-btn {
+    margin-top: 0;
+    padding: 10px 0;
 }
 
 /*********************************/
@@ -305,4 +332,124 @@ nav {
 .features-text-box-content .lead {
     font-size: 16px;
     line-height: 26px;
+}
+
+/*********************************/
+/***- JACKPOT SECTION -***/
+/*********************************/
+.jackpot-section {
+    background: #fff;
+    padding: 60px 0;
+}
+.jackpot-section-title {
+    display: flex;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.jackpot-section-title-left-content {
+    padding-left: 20px;
+    padding-right: 60px;
+    width: 50%;
+    border-right: 1px solid #b9b9b8;
+}
+.jackpot-section-title-left-content h2 {
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 50px;
+    color: #242f51;
+}
+.jackpot-section-title-right-content {
+    width: 50%;
+    padding-left: 45px;
+    align-self: center;
+}
+
+.jackpot-section-title-right-content .lead {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #616368;
+    margin-bottom: 0;
+}
+
+.jackpot-section-main-content {
+    display: flex;
+    justify-content: space-between;
+}
+.jackpot-section-main-content-single-item {
+    width: fit-content;
+}
+
+.jackpot-section-main-content-single-item:nth-child(2){
+    margin: 0 120px;
+}
+
+.single-item-icon {
+    margin-bottom: 32px;
+}
+
+.single-item-content h4 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #f55767;
+    line-height: 58px;
+}
+.single-item-content .lead {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 0;
+}
+
+.single-item-content .automatic-payouts {
+    color: #f55767;
+}
+.single-item-content .network-effect {
+    color: #2563ff;
+}
+.single-item-content .bigger-rewards {
+    color: #40975f;
+}
+
+/*********************************/
+/***- CODE INTEGRATION SECTION -***/
+/*********************************/
+.code-integration-section {
+    padding: 60px 0;
+    background: #fff;
+}
+.code-integration-main-section {
+    width: 100%;
+    display: flex;
+}
+
+.code-integration-section-left-content {
+    width: calc(50% + 60px);
+    margin-left: -60px;
+}
+
+.code-integration-section-left-content img {
+    width: 100%;
+}
+
+.code-integration-section-right-content {
+    margin-top: 120px;
+    width: calc(50% - 100px);
+    margin-left: 100px;
+    padding-right: 24px;
+}
+
+.code-integration-section-right-content h2 {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 46px;
+    color: #242f51;
+    margin-bottom: 26px;
+}
+.code-integration-section-right-content .lead {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #616368;
 }
