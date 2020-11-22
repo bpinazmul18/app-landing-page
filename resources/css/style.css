@@ -598,5 +598,22 @@ p.lead-extends {
     margin-top: 50px;
     padding: 20px 58px;
 }
+/*********************************/
+/***- PRICING SECTION -***/
+/*********************************/
+.pricing-section {
+    background: #fff;
+    padding: 60px 0;
+}
 
-
+.pricing-section-title {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.pricing-section-title h2 {
+    font-size: 36px;
+    font-weight: 500;
+    color: #242f51;
+    margin-bottom: 24px;
+}
