@@ -38,15 +38,19 @@ section {
     color: #fff;
     background: #2500f9;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
     padding: 20px 40px;
     border-radius: 32px;
     transition: .3s;
     text-decoration: none;
     display: inline-block;
+    border: 1px solid transparent;
 }
 .btn:hover {
     cursor: pointer;
+    background: transparent;
+    color: #2500f9;
+    border-color: #ddd;
 }
 .lead {
     font-size: 18px;
@@ -605,12 +609,10 @@ p.lead-extends {
     background: #fff;
     padding: 60px 0;
 }
-
 .pricing-section-title {
     width: 50%;
-    margin: 0 auto;
+    margin: 0 auto 75px;
     text-align: center;
-    margin-bottom: 75px;
 }
 .pricing-section-title h2 {
     font-size: 36px;
@@ -618,24 +620,16 @@ p.lead-extends {
     color: #242f51;
     margin-bottom: 24px;
 }
-
 .packages-area {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     width: 100%;
 }
-
 .package-top {
     margin-bottom: 30px;
 }
-
-
-label.switch {
+.switch {
     position: relative;
     display: flex;
-    align-items: center;
+    text-align: center;
     width: 286px;
     height: 54px;
     background: #fff;
@@ -643,15 +637,17 @@ label.switch {
     border-radius: 32px;
     padding: 20px 45px;
     cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    margin: 0 auto;
 }
-
-label.switch input {
+.switch input {
     opacity: 0;
     height: 0;
     width: 0;
 }
-
-label.switch .slider {
+.switch .slider {
     position: absolute;
     top: 0;
     left: 0;
@@ -661,8 +657,7 @@ label.switch .slider {
     transform: translate(0px, 0px);
     transition: 0.6s ease transform;
 }
-
-label.switch .slider:before {
+.switch .slider:before {
     position: absolute;
     content: "";
     top: 4px;
@@ -674,12 +669,10 @@ label.switch .slider:before {
     border-radius: 32px;
     transition: 0.3s ease;
 }
-
 input:checked + .slider:before {
     transform: translateX(90%);
 }
-
-.input-label {
+.input-label{
     width: 100%;
     position: relative;
     z-index: 1;
@@ -687,28 +680,96 @@ input:checked + .slider:before {
     justify-content: space-between;
     color: #616368;
 }
-
 input:checked + .input-label {
     color: #f55767;
 }
-
 .input-label .switch-color {
     color: #fff;
 }
-
 .card-footer {
     display: flex;
     flex-direction: column;
 }
-
 .packages-items {
-    display: flex;
-    flex-direction: row;
-    /* align-items: center; */
-    justify-content: center;
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
 }
-
 .card {
-    border: 1px solid #ddd;
     margin: 0 20px;
+    border-radius: 4px;
+    display: inline-block;
+    width: calc(50% - 23px);
+    padding-bottom: 25px;
+    float: left;
+}
+.card:first-child {
+    margin-left: 0;
+    box-shadow: 3.837px 54.866px 62px 0px rgba(144, 163, 177, 0.18);
+}
+.card:last-child {
+    margin-right: 0;
+    border: 2px solid #ebebeb;
+}
+.card-text-1 i, .card-text-2 i {
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 58px;
+    color: #242f51;
+}
+.card-text-1, .card-text-2 {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #999ca5;
+}
+.card-list ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.card-list ul li {
+    font-size: 16px;
+    font-weight: 400;
+    color: #999ca5;
+    line-height: 48px;
+}
+.card-list ul li:first-child {
+    margin-top: 0;
+}
+.card-list ul li:last-child {
+    margin-bottom: 0;
+}
+.card-header {
+    padding: 66px 60px 34px;
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(244,247,249,1) 30%);
+}
+.card-title {
+    margin-top: 26px;
+}
+.card-title h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: #242f51;
+    line-height: 28px;
+}
+.card-title span {
+    font-size: 16px;
+    font-weight: 400;
+    color: #999ca5;
+    line-height: 28px;
+}
+.card-body {
+    color: #fff;
+    padding: 22px 60px;
+}
+.card-footer {
+    padding: 0 50px;
+}
+.free-trial-btn {
+    display: block;
+    padding-top: 24px;
+    text-decoration: none;
+    color: #2500f9;
 }
