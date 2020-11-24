@@ -780,12 +780,10 @@ input:checked + .input-label {
     padding: 60px 0;
     background: #fff;
 }
-
 .testimonial-content-area {
     display: inline-block;
     width: 100%;
 }
-
 .testimonial-left-content {
     width: calc(50% + 90px);
     float: left;
@@ -807,18 +805,15 @@ input:checked + .input-label {
     line-height: 50px;
     margin-bottom: 20px;
 }
-
 .testimonial-section-title .lead-extends {
     margin-bottom: 32px;
 }
 .client-review-icon {
     margin-bottom: 4px;
 }
-
 .client-review{
     margin-bottom: 58px;
 }
-
 .client-review h3 {
     font-size: 20px;
     font-weight: 500;
@@ -826,23 +821,19 @@ input:checked + .input-label {
     line-height: 58px;
     margin-bottom: 12px;
 }
-
 .client-section {
     display: flex;
     align-items: center;
 }
-
 .client-icon {
     margin-right: 28px;
 }
-
 .client-section h3 {
     font-size: 18px;
     font-weight: 500;
     line-height: 40px;
     color: #242f51;
 }
-
 .testimonial-inner {
     position: relative;
     z-index: 0;
@@ -853,17 +844,14 @@ input:checked + .input-label {
 .owl-carousel .owl-item img {
     width: auto;
 }
-
 .carousel-control-btn {
     position: absolute;
     bottom: calc(36px - 17px);
     right: 0;
 }
-
 .owl-nav {
     display: none;
 }
-
 .control-btn:first-child {
     margin-left: 0;
 }
@@ -913,4 +901,72 @@ input:checked + .input-label {
     align-items: center;
     justify-content: center;
     z-index: 22;
+}
+/*********************************/
+/***- FAQ SECTION -***/
+/*********************************/
+.faq-section {
+    padding: 90px 0;
+    background: #fff;
+}
+
+.faq-title-section {
+    width: 60%;
+    text-align: center;
+    margin: 0 auto 56px;
+}
+
+.faq-title-section h2 {
+    font-size: 40px;
+    font-weight: 500;
+    color: #242f51;
+    line-height: 58px;
+    margin-bottom: 18px;
+}
+
+.accordion-section {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.accordion-btn {
+    padding: 20px 30px;
+    width: 100%;
+    text-align: left;
+    border: 0;
+    outline: 0;
+    background: #f5f7fa;
+    color: #242f51;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 58px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: .4s;
+}
+.accordion-btn:first-child {
+    margin-top: 0;
+}
+.accordion-btn:last-child {
+    margin-bottom: 0;
+}
+
+.accordion-panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.accordion-btn:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    display: none;
 }

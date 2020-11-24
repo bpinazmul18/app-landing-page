@@ -14,6 +14,7 @@ $(document).ready(function(){
         dots: false,
         items: 1
     });
+
     //OWL CAROUSEL CONTROL BUTTON//
     $('.control-prev-btn').click(function(){
         $('.owl-prev').trigger('click');
@@ -22,7 +23,9 @@ $(document).ready(function(){
         $('.owl-next').trigger('click');
     });
 
+    //FUNCTION CALL//
     check();
+    accordion();
 })
 
 function check(){
@@ -49,5 +52,24 @@ function check(){
             text1[i].style.display = "none";
             text2[i].style.display = "block"
         }
+    }
+}
+
+
+//ACCORDION SECTION//
+function accordion (){
+    var acc = document.getElementsByClassName("accordion-btn");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight) {
+                panel.style.maxHeight = null;
+            } else {
+                panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+        });
     }
 }
