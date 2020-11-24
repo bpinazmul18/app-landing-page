@@ -170,9 +170,7 @@ nav.sticky {
 /***- SLIDER AREA -***/
 /*********************************/
 .slider-section {
-    background: url(img/slider-img-1.jpg);
-    background-repeat: no-repeat;
-    background-position: center top;
+    background: url(img/slider-img-1.jpg) no-repeat center top;
     background-size: cover;
     min-height: 100vh;
     display: flex;
