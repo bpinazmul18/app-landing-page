@@ -6,7 +6,14 @@ $(document).ready(function(){
             $("nav").removeClass("sticky");
         }
     });
-
+    //OWL CAROUSEL//
+    $('.owl-carousel').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        dots: false,
+        items: 1
+    });
     check();
 })
 
