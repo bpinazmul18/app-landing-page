@@ -22,7 +22,6 @@ $(document).ready(function(){
     $('.control-next-btn').click(function(){
         $('.owl-next').trigger('click');
     });
-
     //FUNCTION CALL//
     check();
     accordion();
@@ -56,7 +55,7 @@ function check(){
 }
 
 
-//ACCORDION SECTION//
+// ACCORDION SECTION//
 function accordion (){
     var acc = document.getElementsByClassName("accordion-btn");
     var i;
@@ -65,11 +64,13 @@ function accordion (){
         acc[i].addEventListener("click", function() {
             this.classList.toggle("active");
             var panel = this.nextElementSibling;
-            if (panel.style.maxHeight) {
-                panel.style.maxHeight = null;
+            if (panel.style.display === "block") {
+                panel.style.display = "none";
             } else {
-                panel.style.maxHeight = panel.scrollHeight + "px";
+                panel.style.display = "block";
             }
         });
     }
 }
+
+

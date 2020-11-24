@@ -38,7 +38,7 @@ section {
     color: #fff;
     background: #2500f9;
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 600;
     padding: 20px 40px;
     border-radius: 32px;
     transition: .3s;
@@ -160,7 +160,7 @@ nav.sticky {
 
 .icon-title {
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 58px;
     color: #242f51;
     margin: 0;
@@ -320,7 +320,7 @@ nav.sticky {
 
 .features-section-title h2{
     font-size: 36px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 46px;
     color: #242f51;
     margin-bottom: 26px;
@@ -334,7 +334,7 @@ nav.sticky {
 
 .features-text-box-content h4 {
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 58px;
 }
 .features-text-box-content .fast-performance {
@@ -375,7 +375,7 @@ nav.sticky {
 }
 .jackpot-section-title-left-content h2 {
     font-size: 38px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 50px;
     color: #242f51;
 }
@@ -411,7 +411,7 @@ nav.sticky {
 
 .single-item-content h4 {
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
     color: #f55767;
     line-height: 58px;
 }
@@ -463,7 +463,7 @@ nav.sticky {
 
 .code-integration-section-right-content h2 {
     font-size: 36px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 46px;
     color: #242f51;
     margin-bottom: 26px;
@@ -490,7 +490,7 @@ nav.sticky {
 
 .choose-your-app-section-title h2 {
     font-size: 36px;
-    font-weight: 500;
+    font-weight: 600;
     color: #242f51;
     line-height: 46px;
     margin-bottom: 30px;
@@ -527,7 +527,7 @@ nav.sticky {
 }
 .app-section-single-item-text h4 {
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
     color: #242f51;
     line-height: 58px;
 }
@@ -565,7 +565,7 @@ nav.sticky {
 
 .unlimited-section-title h2 {
     font-size: 36px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 46px;
     color: #242f51;
     margin-bottom: 10px;
@@ -616,7 +616,7 @@ p.lead-extends {
 }
 .pricing-section-title h2 {
     font-size: 36px;
-    font-weight: 500;
+    font-weight: 600;
     color: #242f51;
     margin-bottom: 24px;
 }
@@ -714,7 +714,7 @@ input:checked + .input-label {
 .card-text-1 i, .card-text-2 i {
     font-size: 60px;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 58px;
     color: #242f51;
 }
@@ -750,7 +750,7 @@ input:checked + .input-label {
 }
 .card-title h3 {
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
     color: #242f51;
     line-height: 28px;
 }
@@ -800,7 +800,7 @@ input:checked + .input-label {
 }
 .testimonial-section-title h2 {
     font-size: 40px;
-    font-weight: 500;
+    font-weight: 600;
     color: #242f51;
     line-height: 50px;
     margin-bottom: 20px;
@@ -816,7 +816,7 @@ input:checked + .input-label {
 }
 .client-review h3 {
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
     color: #242f51;
     line-height: 58px;
     margin-bottom: 12px;
@@ -830,7 +830,7 @@ input:checked + .input-label {
 }
 .client-section h3 {
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 40px;
     color: #242f51;
 }
@@ -908,17 +908,16 @@ input:checked + .input-label {
 .faq-section {
     padding: 90px 0;
     background: #fff;
+    border-bottom: 2px solid #f4f4f4;
 }
-
 .faq-title-section {
     width: 60%;
     text-align: center;
     margin: 0 auto 56px;
 }
-
 .faq-title-section h2 {
     font-size: 40px;
-    font-weight: 500;
+    font-weight: 600;
     color: #242f51;
     line-height: 58px;
     margin-bottom: 18px;
@@ -939,7 +938,7 @@ input:checked + .input-label {
     outline: 0;
     color: #242f51;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 58px;
     cursor: pointer;
     transition: .4s;
@@ -955,10 +954,11 @@ input:checked + .input-label {
 }
 
 .accordion-panel {
-    padding: 0 30px;
-    max-height: 0;
+    padding: 0 30px 60px;
+    height: auto;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
+    display: none;
 }
 .accordion-btn:after {
     background: url(../img/plus-icon.png) no-repeat;
@@ -968,4 +968,153 @@ input:checked + .input-label {
 }
 .active:after {
     display: none;
+}
+
+/*********************************/
+/***- DOWNLOAD SECTION -***/
+/*********************************/
+.download-section {
+    background: #fff;
+    position: relative;
+}
+.download-content-section {
+    width: 100%;
+}
+.download-content-section-left {
+    display: inline-block;
+    width: 55%;
+    float: left;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.download-content-section-left h2 {
+    font-size: 48px;
+    font-weight: 600;
+    color: #242f51;
+    line-height: 58px;
+    margin-bottom: 20px;
+}
+.download-content-section-right {
+    display: inline-block;
+    width: 45%;
+    float: left;
+    position: absolute;
+    right: 0;
+    bottom: -65px;
+    overflow: hidden;
+}
+.download-content-section-right img {
+    width: auto;
+}
+.download-content-section-left .lead-extends {
+    margin-bottom: 46px
+}
+.download-icon {
+    margin: 0 12px;
+    display: inline-block;
+}
+.download-icon:first-child {
+    margin-left: 0;
+}
+.download-icon:last-child {
+    margin-right: 0;
+}
+
+/*********************************/
+/***- FOOTER SECTION -***/
+/*********************************/
+.footer-section {
+    padding: 100px 0 110px;
+    background: #09142e;
+}
+
+.footer-content-area {
+    text-align: center;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.footer-logo {
+    margin-bottom: 32px;
+}
+
+.footer-menu {
+    margin-bottom: 38px;
+}
+
+.footer-menu ul {
+    list-style: none;
+    display: flex;
+}
+
+.footer-menu ul li {
+    margin: 0 16px;
+}
+
+.footer-menu ul li:first-child {
+    margin-left: 0;
+}
+.footer-menu ul li:last-child {
+    margin-right: 0;
+}
+
+.footer-menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 44px;
+}
+
+.social-icon {
+    margin-bottom: 86px;
+}
+
+.social-icon ul {
+    display: flex;
+    list-style: none;
+}
+
+.social-icon ul li {
+    margin: 0 8px;
+}
+
+.social-icon ul li:first-child {
+    margin-left: 0;
+}
+
+.social-icon ul li:last-child {
+    margin-right: 0;
+}
+
+.fab, .far {
+    font-size: 30px;
+}
+
+.social-icon ul li a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.social-icon ul li a i:before {
+    color: #273043;
+}
+
+.social-icon ul li a i.active:before {
+    color: #fff;
+}
+
+.social-icon ul li a i.fa-github:before {
+    background: #273043;
+    color: #09142e;
+}
+.copy-right {
+    font-size: 14px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 44px;
 }
