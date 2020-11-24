@@ -847,7 +847,70 @@ input:checked + .input-label {
     position: relative;
     z-index: 0;
 }
-
+.owl-carousel {
+    z-index: 0;
+}
 .owl-carousel .owl-item img {
     width: auto;
+}
+
+.carousel-control-btn {
+    position: absolute;
+    bottom: calc(36px - 17px);
+    right: 0;
+}
+
+.owl-nav {
+    display: none;
+}
+
+.control-btn:first-child {
+    margin-left: 0;
+}
+
+.control-btn:last-child {
+    margin-right: 0;
+}
+
+.control-prev-btn {
+    background: #fff;
+    display: inline-block;
+    float: left;
+    border: 1px solid #f0f4f8;
+}
+.control-next-btn {
+    background: #eff3f8;
+    display: inline-block;
+    float: left;
+    position: relative;
+}
+
+.control-next-btn:before {
+    content: "";
+    width: 1px;
+    height: 100%;
+    background: #ddd;
+    position: absolute;
+    top: 0;
+    left: -8px;
+}
+
+.control-btn img {
+    vertical-align: middle;
+    display: inline-block;
+    width: auto;
+    cursor: pointer;
+}
+
+.control-btn {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 22;
 }

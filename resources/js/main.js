@@ -14,6 +14,14 @@ $(document).ready(function(){
         dots: false,
         items: 1
     });
+    //OWL CAROUSEL CONTROL BUTTON//
+    $('.control-prev-btn').click(function(){
+        $('.owl-prev').trigger('click');
+    });
+    $('.control-next-btn').click(function(){
+        $('.owl-next').trigger('click');
+    });
+
     check();
 })
 
