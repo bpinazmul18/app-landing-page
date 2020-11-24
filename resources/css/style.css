@@ -923,26 +923,29 @@ input:checked + .input-label {
     line-height: 58px;
     margin-bottom: 18px;
 }
-
 .accordion-section {
     width: 80%;
     margin: 0 auto;
 }
-
+.accordion-single-item {
+    background: #f5f7fa;
+    margin: 10px 0;
+}
 .accordion-btn {
+    background: #f5f7fa;
     padding: 20px 30px;
     width: 100%;
-    text-align: left;
     border: 0;
     outline: 0;
-    background: #f5f7fa;
     color: #242f51;
     font-size: 20px;
     font-weight: 500;
     line-height: 58px;
-    margin: 10px 0;
     cursor: pointer;
     transition: .4s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .accordion-btn:first-child {
     margin-top: 0;
@@ -952,21 +955,17 @@ input:checked + .input-label {
 }
 
 .accordion-panel {
-    padding: 0 18px;
-    background-color: white;
+    padding: 0 30px;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
 }
-
 .accordion-btn:after {
-    content: '\002B';
-    color: #777;
-    font-weight: bold;
-    float: right;
-    margin-left: 5px;
+    background: url(../img/plus-icon.png) no-repeat;
+    content: "";
+    height: 19px;
+    width: 18px;
 }
-
 .active:after {
     display: none;
 }
