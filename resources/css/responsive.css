@@ -6,6 +6,9 @@
     .nav-right {
         display: none;
     }
+    .mobile-menu {
+        display: block;
+    }
     .mobile-menu span {
         float: right;
         font-size: 30px;
@@ -62,6 +65,13 @@
     }
     .sticky .overlay .closebtn {
         margin-top: 15px;
+    }
+
+
+
+
+    .editor-choice a span {
+        padding: 6px 10px;
     }
 
 
