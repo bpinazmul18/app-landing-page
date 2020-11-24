@@ -165,6 +165,9 @@ nav.sticky {
     color: #242f51;
     margin: 0;
 }
+.mobile-menu {
+    display: none;
+}
 
 /*********************************/
 /***- SLIDER AREA -***/
