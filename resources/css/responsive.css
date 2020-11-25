@@ -416,7 +416,7 @@
 }
 
 /*MINIMUM SCREEN SIZE 0PX AND MAXIMUM SCREEN SIZE 576PX|[ --576PX > 767px-- ]|*/
-@media only screen and (min-width: 576px) {
+@media only screen and (min-width: 575px) and (max-width: 767px) {
     .container {
         max-width: 540px;
     }
@@ -635,16 +635,28 @@
 
 
 /*MINIMUM SCREEN SIZE 577PX AND MAXIMUM SCREEN SIZE 768PX|[ --768PX > 991px-- ]|*/
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
     .container {
         max-width: 740px;
+    }
+    .mobile-menu {
+        display: block;
+    }
+    .nav-right {
+        display: none;
     }
 }
 
 /*MINIMUM SCREEN SIZE 769PX AND MAXIMUM SCREEN SIZE 992PX|[ --992PX > 1199px-- ]|*/
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
     .container {
         max-width: 960px;
+    }
+    .mobile-menu {
+        display: none;
+    }
+    .nav-right {
+        display: flex;
     }
 }
 
