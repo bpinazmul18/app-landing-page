@@ -18,7 +18,6 @@ body {
 section {
     display: block;
 }
-
 .container {
     max-width: 1170px;
     width: 100%;
@@ -77,38 +76,30 @@ nav {
     display: flex;
     width: 100%;
 }
-
 .logo {
     margin-top: 55px;
 }
-
 .nav-right {
     display: flex;
     margin-left: auto;
 }
-
 .main-nav {
     margin-top: 60px;
     margin-right: 28px;
 }
-
 .main-nav ul {
     display: flex;
     list-style-type: none;
 }
-
 .main-nav ul li {
     margin: 0 18px;
 }
-
 .main-nav ul li:first-child {
     margin-left: 0;
 }
-
 .main-nav ul li:last-child {
     margin-right: 0;
 }
-
 .main-nav ul li a {
     font-weight: 400;
     font-size: 16px;
@@ -116,11 +107,9 @@ nav {
     color: #242f51;
     text-transform: capitalize;
 }
-
 .main-nav ul li:last-child a {
     text-transform: uppercase;
 }
-
 .navbar-btn {
     margin-top: 40px;
     margin-left: 28px;
@@ -133,7 +122,6 @@ nav {
     color: #2500f9;
     border-color: #ddd;
 }
-
 /*STICKY NAV*/
 nav.sticky {
     top: 0;
@@ -142,15 +130,8 @@ nav.sticky {
     background: rgba(255, 255, 255, 0.9);
     position: fixed;
     transition: 0.3s;
-    box-shadow:
-            0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-            0 6.7px 5.3px rgba(0, 0, 0, 0.048),
-            0 12.5px 10px rgba(0, 0, 0, 0.06),
-            0 22.3px 17.9px rgba(0, 0, 0, 0.072),
-            0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-            0 100px 80px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
 }
-
 .sticky a.logo {
     margin-top: 0;
     padding: 22px 0;
@@ -159,12 +140,10 @@ nav.sticky {
     margin-top: 0;
     padding: 30px 0;
 }
-
 .sticky .navbar-btn {
     margin-top: 0;
     padding: 10px 0;
 }
-
 .icon-title {
     font-size: 20px;
     font-weight: 600;
@@ -176,7 +155,6 @@ nav.sticky {
 .mobile-menu {
     display: none;
 }
-
 .mobile-menu span {
     float: right;
     font-size: 30px;
@@ -234,7 +212,6 @@ nav.sticky {
 .sticky .overlay .closebtn {
     margin-top: 15px;
 }
-
 /*********************************/
 /***- SLIDER AREA -***/
 /*********************************/
@@ -252,7 +229,6 @@ nav.sticky {
     width: 50%;
     margin-left: 70px;
 }
-
 .slider-text-area h1 {
     font-size: 60px;
     font-weight: 600;
@@ -270,28 +246,22 @@ nav.sticky {
     display: flex;
     align-items: center;
 }
-
 .editor-choice a {
     text-decoration: none;
     color: #242f51;
 }
-
 .editor-choice a span {
     padding: 0 48px 0 10px;
 }
-
 .text-box-btn {
     display: flex;
 }
-
 .text-box-btn a {
     margin: 0 10px;
 }
-
 .text-box-btn a:first-child {
     margin-left: 0;
 }
-
 .text-box-btn a:last-child {
     margin-right: 0;
 }
@@ -308,12 +278,10 @@ nav.sticky {
     color: #2500f9;
     padding: 20px 16px
 }
-
 .btn-bg-none:hover {
     background: #2500f9;
     color: #fff;
 }
-
 /*********************************/
 /***- TRUSTED BY COMPANY SECTION -***/
 /*********************************/
@@ -327,7 +295,6 @@ nav.sticky {
     margin-left: 100px;
     margin-right: 100px;
 }
-
 .trust-section-title {
     text-align: center;
     margin-bottom: 38px;
@@ -339,18 +306,15 @@ nav.sticky {
     font-weight: 400;
     color: #242f51;
 }
-
 .trust-section-box {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
 .trust-section-single-box {
     margin: 10px 0;
 }
-
 /*********************************/
 /***- FEATURES SECTION -***/
 /*********************************/
@@ -365,30 +329,24 @@ nav.sticky {
     width: calc(50% + 80px);
     margin-left: -80px;
 }
-
 .features-left-content img {
     width: 100%;
 }
-
 .features-right-content {
     width: calc(42% - 40px);
     margin-left: 40px;
     margin-top: 40px;
 }
-
 .features-text-box-single-item {
     display: flex;
 }
-
 .features-text-box-icon {
     margin-right: 32px;
     align-self: center;
 }
-
 .features-section-title {
     margin-bottom: 92px;
 }
-
 .features-section-title h2{
     font-size: 36px;
     font-weight: 600;
@@ -396,13 +354,11 @@ nav.sticky {
     color: #242f51;
     margin-bottom: 26px;
 }
-
 .features-section-title .lead {
     font-size: 16px;
     line-height: 26px;
     margin-bottom: 0;
 }
-
 .features-text-box-content h4 {
     font-size: 20px;
     font-weight: 600;
@@ -411,20 +367,16 @@ nav.sticky {
 .features-text-box-content .fast-performance {
     color: #f55767;
 }
-
 .features-text-box-content .prototyping {
     color: #2563ff;
 }
-
 .features-text-box-content .vector-editing {
     color: #40975f;
 }
-
 .features-text-box-content .lead {
     font-size: 16px;
     line-height: 26px;
 }
-
 /*********************************/
 /***- JACKPOT SECTION -***/
 /*********************************/
@@ -437,7 +389,6 @@ nav.sticky {
     width: 100%;
     margin-bottom: 100px;
 }
-
 .jackpot-section-title-left-content {
     padding-left: 20px;
     padding-right: 60px;
@@ -455,7 +406,6 @@ nav.sticky {
     padding-left: 45px;
     align-self: center;
 }
-
 .jackpot-section-title-right-content .lead {
     font-size: 16px;
     font-weight: 400;
@@ -463,7 +413,6 @@ nav.sticky {
     color: #616368;
     margin-bottom: 0;
 }
-
 .jackpot-section-main-content {
     display: flex;
     justify-content: space-between;
@@ -471,15 +420,12 @@ nav.sticky {
 .jackpot-section-main-content-single-item {
     width: fit-content;
 }
-
 .jackpot-section-main-content-single-item:nth-child(2){
     margin: 0 120px;
 }
-
 .single-item-icon {
     margin-bottom: 32px;
 }
-
 .single-item-content h4 {
     font-size: 20px;
     font-weight: 600;
@@ -492,7 +438,6 @@ nav.sticky {
     line-height: 26px;
     margin-bottom: 0;
 }
-
 .single-item-content .automatic-payouts {
     color: #f55767;
 }
@@ -502,7 +447,6 @@ nav.sticky {
 .single-item-content .bigger-rewards {
     color: #40975f;
 }
-
 /*********************************/
 /***- CODE INTEGRATION SECTION -***/
 /*********************************/
@@ -515,23 +459,19 @@ nav.sticky {
     width: 100%;
     display: flex;
 }
-
 .code-integration-section-left-content {
     width: calc(50% + 60px);
     margin-left: -60px;
 }
-
 .code-integration-section-left-content img {
     width: 100%;
 }
-
 .code-integration-section-right-content {
     margin-top: 120px;
     width: calc(50% - 100px);
     margin-left: 100px;
     padding-right: 24px;
 }
-
 .code-integration-section-right-content h2 {
     font-size: 36px;
     font-weight: 600;
@@ -552,13 +492,11 @@ nav.sticky {
     background: #fff;
     padding: 120px 0;
 }
-
 .choose-your-app-section-title {
     width: 60%;
     margin: 0 auto 86px;
     text-align: center;
 }
-
 .choose-your-app-section-title h2 {
     font-size: 36px;
     font-weight: 600;
@@ -575,13 +513,10 @@ nav.sticky {
     margin-bottom: 0;
     padding: 0 60px;
 }
-
 .choose-your-app-section-main-content-wrapper {
     display: flex;
     flex-direction: column;
 }
-
-
 .choose-your-app-section-main-content {
     display: flex;
     text-align: center;
@@ -592,7 +527,6 @@ nav.sticky {
 .app-section-single-item:nth-child(2) {
     margin: 0 100px;
 }
-
 .app-section-single-item-icon {
     margin-bottom: 26px;
 }
@@ -602,7 +536,6 @@ nav.sticky {
     color: #242f51;
     line-height: 58px;
 }
-
 .app-section-single-item-text .lead {
     font-size: 16px;
     font-weight: 400;
@@ -613,27 +546,22 @@ nav.sticky {
 .unlimited-features-section-left-content {
     width: calc(50% - 36px);
 }
-
 .unlimited-features-section-right-content {
     position: absolute;
     width: 50%;
     right: 0;
     margin-top: 60px;
 }
-
 .unlimited-features-section-right-content img {
     width: 100%;
 }
-
 .unlimited-features-section {
     background: #fff;
     padding: 80px 0;
 }
-
 .unlimited-features-section-left-content {
     margin-left: 36px;
 }
-
 .unlimited-section-title h2 {
     font-size: 36px;
     font-weight: 600;
@@ -641,28 +569,22 @@ nav.sticky {
     color: #242f51;
     margin-bottom: 10px;
 }
-
 p.lead-extends {
 }
-
 .unlimited-section-title {
     padding-right: 160px;
     margin-bottom: 44px;
 }
-
 .unlimited-section-content-box {
     display: flex;
     flex-direction: column;
 }
-
 .unlimited-section-content-box-single-item {
     display: flex;
 }
-
 .unlimited-section-box-icon {
     margin-bottom: 26px;
 }
-
 .unlimited-section-content-box-single-item:first-child {
     margin-bottom: 54px;
 }
@@ -864,7 +786,6 @@ input:checked + .input-label {
 .testimonial-left-content img {
     width: 100%;
 }
-
 .testimonial-right-content {
     width: 50%;
     float: left;
@@ -926,11 +847,9 @@ input:checked + .input-label {
 .control-btn:first-child {
     margin-left: 0;
 }
-
 .control-btn:last-child {
     margin-right: 0;
 }
-
 .control-prev-btn {
     background: #fff;
     display: inline-block;
@@ -943,7 +862,6 @@ input:checked + .input-label {
     float: left;
     position: relative;
 }
-
 .control-next-btn:before {
     content: "";
     width: 1px;
@@ -953,14 +871,12 @@ input:checked + .input-label {
     top: 0;
     left: -8px;
 }
-
 .control-btn img {
     vertical-align: middle;
     display: inline-block;
     width: auto;
     cursor: pointer;
 }
-
 .control-btn {
     height: 50px;
     width: 50px;
@@ -1023,7 +939,6 @@ input:checked + .input-label {
 .accordion-btn:last-child {
     margin-bottom: 0;
 }
-
 .accordion-panel {
     padding: 0 30px 60px;
     height: auto;
@@ -1040,7 +955,6 @@ input:checked + .input-label {
 .active:after {
     display: none;
 }
-
 /*********************************/
 /***- DOWNLOAD SECTION -***/
 /*********************************/
@@ -1090,7 +1004,6 @@ input:checked + .input-label {
 .download-icon:last-child {
     margin-right: 0;
 }
-
 /*********************************/
 /***- FOOTER SECTION -***/
 /*********************************/
@@ -1098,7 +1011,6 @@ input:checked + .input-label {
     padding: 100px 0 110px;
     background: #09142e;
 }
-
 .footer-content-area {
     text-align: center;
     width: 50%;
@@ -1108,31 +1020,25 @@ input:checked + .input-label {
     margin: 0 auto;
     align-items: center;
 }
-
 .footer-logo {
     margin-bottom: 32px;
 }
-
 .footer-menu {
     margin-bottom: 38px;
 }
-
 .footer-menu ul {
     list-style: none;
     display: flex;
 }
-
 .footer-menu ul li {
     margin: 0 16px;
 }
-
 .footer-menu ul li:first-child {
     margin-left: 0;
 }
 .footer-menu ul li:last-child {
     margin-right: 0;
 }
-
 .footer-menu ul li a {
     text-decoration: none;
     color: #fff;
@@ -1140,45 +1046,35 @@ input:checked + .input-label {
     font-weight: 400;
     line-height: 44px;
 }
-
 .social-icon {
     margin-bottom: 86px;
 }
-
 .social-icon ul {
     display: flex;
     list-style: none;
 }
-
 .social-icon ul li {
     margin: 0 8px;
 }
-
 .social-icon ul li:first-child {
     margin-left: 0;
 }
-
 .social-icon ul li:last-child {
     margin-right: 0;
 }
-
 .fab, .far {
     font-size: 30px;
 }
-
 .social-icon ul li a {
     text-decoration: none;
     display: inline-block;
 }
-
 .social-icon ul li a i:before {
     color: #273043;
 }
-
 .social-icon ul li a i.active:before {
     color: #fff;
 }
-
 .social-icon ul li a i.fa-github:before {
     background: #273043;
     color: #09142e;

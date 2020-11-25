@@ -39,8 +39,6 @@
     .btn {
         padding: 16px 30px;
     }
-
-
     .trust-section {
         padding-top: 40px;
         padding-bottom: 40px;
@@ -49,26 +47,21 @@
         width: 100%;
         margin: 0;
     }
-
     .trust-section-title {
         margin-bottom: 30px;
     }
-
     .trust-section-box {
         flex-wrap: wrap;
     }
-
     .trust-section-single-box:last-child {
         margin: 10px auto;
     }
-
     .features-section {
         padding: 30px 0;
     }
     .features-left-content {
         display: none;
     }
-
     .features-right-content {
         width: 100%;
         margin: 0;
@@ -81,7 +74,6 @@
         font-size: 30px;
         line-height: 40px;
     }
-
     .features-text-box {
         display: flex;
         flex-direction: column;
@@ -97,21 +89,16 @@
     .features-text-box-single-item:last-child {
         margin-bottom: 0;
     }
-
     .features-text-box-icon {
         margin: 0;
     }
     .jackpot-section {
         padding: 20px 0;
     }
-
     .jackpot-section-title {
         flex-direction: column;
         margin-bottom: 40px;
     }
-
-
-
     .jackpot-section-title-left-content {
         width: 100%;
         padding: 0;
@@ -131,9 +118,6 @@
         padding: 0;
         text-align: center;
     }
-
-
-
     .jackpot-section-main-content {
         flex-direction: column;
         align-items: center;
@@ -160,14 +144,9 @@
     .single-item-content h4 {
         line-height: 46px;
     }
-
     .code-integration-main-section {
         flex-direction: column;
     }
-
-
-
-
     .code-integration-section {
         padding: 30px 0;
     }
@@ -184,8 +163,6 @@
         font-size: 30px;
         line-height: 40px;
     }
-
-
     .choose-your-app {
         padding: 60px 0;
     }
@@ -228,21 +205,15 @@
     .app-section-single-item-text h4 {
         line-height: 46px;
     }
-
-
     .choose-your-app-section-main-content {
         margin: 30px 0;
     }
-
     .choose-your-app-section-main-content:first-child {
         margin-top: 0;
     }
-
     .choose-your-app-section-main-content:last-child {
         margin-bottom: 0;
     }
-
-
     .unlimited-features-section {
         padding: 40px 0;
     }
@@ -278,7 +249,6 @@
     .unlimited-section-box-single-item {
         margin: 20px 0;
     }
-
     .unlimited-section-box-single-item:first-child {
         margin-top: 0;
     }
@@ -288,11 +258,6 @@
     .unlimited-section-box-single-item:nth-child(even) {
         margin-left: 0;
     }
-
-
-
-
-
     .pricing-section {
         padding: 40px 0;
     }
@@ -300,7 +265,6 @@
         width: 100%;
         margin: 0;
     }
-
     .pricing-section-title h2 {
         font-size: 30px;
         line-height: 40px;
@@ -308,10 +272,6 @@
     .pricing-section-title .lead-extends {
         margin-bottom: 20px;
     }
-
-
-
-
     .packages-items {
         display: flex;
         flex-direction: column;
@@ -327,8 +287,6 @@
     .card:last-child {
         margin-bottom: 0;
     }
-
-
     .testimonial-section {
         padding: 40px 0;
     }
@@ -370,8 +328,6 @@
         align-items: center;
         justify-content: center;
     }
-
-
     .faq-section {
         padding: 30px 0;
     }
@@ -383,7 +339,6 @@
         font-size: 30px;
         line-height: 40px;
     }
-
     .accordion-section {
         width: 100%;
         display: flex;
@@ -401,12 +356,9 @@
     .accordion-btn:after {
         margin-top: 20px;
     }
-
-
     .download-content-section {
         text-align: center;
     }
-
     .download-content-section-left {
         width: 100%;
         padding-top: 40px;
@@ -422,16 +374,12 @@
         display: flex;
         flex-direction: column;
     }
-
     .download-icon {
         margin: 0;
     }
-
-
     .footer-section {
         padding: 50px 0 60px;
     }
-
     .footer-content-area {
         width: 100%;
     }
@@ -441,14 +389,11 @@
         align-items: center;
         justify-content: center;
     }
-
     .footer-menu ul {
         display: flex;
         flex-direction: column;
     }
-
 }
-
 /*MINIMUM SCREEN SIZE 0PX AND MAXIMUM SCREEN SIZE 576PX|[ --576PX > 767px-- ]|*/
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .container {
@@ -464,7 +409,6 @@
         width: 60px;
         height: 48px;
     }
-
     .editor-choice a span {
         padding: 6px 10px;
     }
@@ -511,7 +455,6 @@
         font-size: 30px;
         line-height: 40px;
     }
-
     .jackpot-section-main-content {
         flex-direction: column;
     }
@@ -536,7 +479,6 @@
     .jackpot-section-main-content-single-item:last-child {
         margin-bottom: 0;
     }
-
     .code-integration-section-left-content {
         display: none;
     }
@@ -556,7 +498,6 @@
     .choose-your-app-section-title .lead {
         padding: 0;
     }
-
     .choose-your-app-section-main-content {
         flex-direction: column;
         text-align: left;
@@ -580,7 +521,6 @@
         margin: 0;
         margin-right: 30px;
     }
-
     .unlimited-features-section-left-content {
         width: 100%;
         margin: 0;
@@ -617,7 +557,6 @@
         margin: 0;
         margin-right: 30px;
     }
-
     .pricing-section-title {
         width: 100%;
         margin: 0;
@@ -636,7 +575,6 @@
     .card:last-child {
         margin-bottom: 0;
     }
-
     .testimonial-left-content {
         display: none;
     }
@@ -666,8 +604,6 @@
         width: 100%;
     }
 }
-
-
 /*MINIMUM SCREEN SIZE 577PX AND MAXIMUM SCREEN SIZE 768PX|[ --768PX > 991px-- ]|*/
 @media only screen and (min-width: 768px) and (max-width: 991px) {
     .container {
@@ -701,7 +637,6 @@
         width: 100%;
         margin: 0;
     }
-
     .features-section {
         padding: 30px 0;
     }
@@ -719,10 +654,6 @@
     .features-section-title .lead {
         padding: 0 60px;
     }
-
-
-
-
     .jackpot-section {
         padding: 30px 0;
     }
@@ -756,9 +687,6 @@
     .jackpot-section-main-content-single-item:last-child {
         margin-bottom: 0;
     }
-
-
-
     .code-integration-section-left-content {
         display: none;
     }
@@ -768,8 +696,6 @@
         padding: 0;
         text-align: center;
     }
-
-
     .choose-your-app {
         padding: 60px 0;
     }
@@ -803,7 +729,6 @@
         margin-bottom: 0;
         margin-right: 30px;
     }
-
     .unlimited-features-section {
         padding: 60px 0;
     }
@@ -853,7 +778,6 @@
     .see-all-btn {
         padding: 16px 40px;
     }
-
     .pricing-section {
         padding: 40px 0;
     }
@@ -868,12 +792,9 @@
     .packages-items {
         width: 100%;
     }
-
-
     .testimonial-section {
         padding: 40px 0;
     }
-
     .testimonial-left-content {
         display: none;
     }
@@ -890,12 +811,9 @@
         align-items: center;
         justify-content: center;
     }
-
-
     .faq-section {
         padding: 40px 0;
     }
-
     .faq-title-section {
         width: 100%;
         text-align: center;
@@ -909,10 +827,7 @@
     .accordion-btn:after {
         width: 30px;
     }
-
-
-
-    section.download-section {
+    .download-section {
         padding: 40px 0;
     }
     .download-content-section-right {
@@ -926,9 +841,6 @@
     .download-content-section-left .lead-extends {
         padding: 0 80px;
     }
-
-
-
     .footer-section {
         padding: 40px 0;
     }
@@ -938,26 +850,7 @@
     .social-icon {
         margin-bottom: 30px;
     }
-
-
-
-
-    /*OKAY BRUH*/
-    /*OKAY BRUH*/
-    /*OKAY BRUH*/
-    /*OKAY BRUH*/
-    /*OKAY BRUH*/
-    /*OKAY BRUH*/
-    /*OKAY BRUH*/
-    /*OKAY BRUH*/
-    /*OKAY BRUH*/
-    /*OKAY BRUH*/
-    /*OKAY BRUH*/
-    /*OKAY BRUH*/
-    /*OKAY BRUH*/
-    /*OKAY BRUH*/
 }
-
 /*MINIMUM SCREEN SIZE 769PX AND MAXIMUM SCREEN SIZE 992PX|[ --992PX > 1199px-- ]|*/
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .container {
@@ -972,39 +865,10 @@
     .packages-items {
         width: 80%;
     }
-    /*OKAY BRUH*/
-    /*OKAY BRUH*/
-    /*OKAY BRUH*/
-    /*OKAY BRUH*/
-    /*OKAY BRUH*/
-    /*OKAY BRUH*/
-    /*OKAY BRUH*/
-    /*OKAY BRUH*/
-    /*OKAY BRUH*/
-    /*OKAY BRUH*/
-    /*OKAY BRUH*/
-    /*OKAY BRUH*/
-    /*OKAY BRUH*/
-    /*OKAY BRUH*/
 }
-
 /*MINIMUM SCREEN SIZE 993PX AND MAXIMUM SCREEN SIZE 1200PX|[ --993px > 1200PX-- ]|*/
 @media only screen and (min-width: 1200px) {
     .container {
         max-width: 1170px;
     }
-    /*OKAY BRUH*/
-    /*OKAY BRUH*/
-    /*OKAY BRUH*/
-    /*OKAY BRUH*/
-    /*OKAY BRUH*/
-    /*OKAY BRUH*/
-    /*OKAY BRUH*/
-    /*OKAY BRUH*/
-    /*OKAY BRUH*/
-    /*OKAY BRUH*/
-    /*OKAY BRUH*/
-    /*OKAY BRUH*/
-    /*OKAY BRUH*/
-    /*OKAY BRUH*/
 }
