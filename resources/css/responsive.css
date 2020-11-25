@@ -10,7 +10,7 @@
         display: block;
     }
     .editor-choice a span {
-        padding: 6px 10px;
+        padding: 0 10px;
     }
     .slider-text-area {
         width: 100%;
