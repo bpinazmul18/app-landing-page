@@ -57,7 +57,7 @@
         margin: 10px auto;
     }
     .features-section {
-        padding: 30px 0;
+        padding: 0;
     }
     .features-left-content {
         display: none;
@@ -81,7 +81,7 @@
     .features-text-box-single-item {
         display: flex;
         flex-direction: column;
-        margin: 10px;
+        margin: 0;
     }
     .features-text-box-single-item:first-child {
         margin-top: 0;
@@ -164,7 +164,7 @@
         line-height: 40px;
     }
     .choose-your-app {
-        padding: 60px 0;
+        padding: 20px 0;
     }
     .choose-your-app-section-title {
         width: 100%;
@@ -286,6 +286,9 @@
     }
     .card:last-child {
         margin-bottom: 0;
+    }
+    .card-text-1 i, .card-text-2 i {
+        font-size: 46px;
     }
     .testimonial-section {
         padding: 40px 0;
