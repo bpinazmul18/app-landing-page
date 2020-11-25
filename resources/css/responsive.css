@@ -140,6 +140,7 @@
     }
     .features-section-title h2 {
         font-size: 30px;
+        line-height: 40px;
     }
 
     .features-text-box {
@@ -175,6 +176,7 @@
     .jackpot-section-title-left-content h2 {
         font-size: 30px;
         text-align: center;
+        line-height: 40px;
     }
     .jackpot-section-title-right-content {
         width: 100%;
@@ -229,6 +231,7 @@
     }
     .code-integration-section-right-content h2 {
         font-size: 30px;
+        line-height: 40px;
     }
 
 
@@ -242,6 +245,7 @@
     .choose-your-app-section-title h2 {
         font-size: 30px;
         padding: 0;
+        line-height: 40px;
     }
     .choose-your-app-section-title .lead {
         padding: 0;
@@ -289,6 +293,7 @@
     }
     .unlimited-section-title h2 {
         font-size: 30px;
+        line-height: 40px;
     }
     .unlimited-features-section-right-content {
         display: none;
@@ -334,6 +339,7 @@
 
     .pricing-section-title h2 {
         font-size: 30px;
+        line-height: 40px;
     }
     .pricing-section-title .lead-extends {
         margin-bottom: 20px;
