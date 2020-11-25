@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="33673fa4-61cd-4216-b0af-ef0ae4b9fa9e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/responsive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +48,8 @@
       <workItem from="1606192410266" duration="8655000" />
       <workItem from="1606203933358" duration="14745000" />
       <workItem from="1606220776468" duration="10391000" />
-      <workItem from="1606276828106" duration="278000" />
+      <workItem from="1606276828106" duration="1811000" />
+      <workItem from="1606279927534" duration="2424000" />
     </task>
     <servers />
   </component>
@@ -54,6 +57,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state width="498" height="446" key="SwitcherDM" timestamp="1606277523122">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.1366.738@0.0.1366.738" timestamp="1606277523122" />
     <state x="346" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1606208916625">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

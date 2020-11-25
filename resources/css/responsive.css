@@ -9,76 +9,9 @@
     .mobile-menu {
         display: block;
     }
-    .mobile-menu span {
-        float: right;
-        font-size: 30px;
-        cursor: pointer;
-        right: 60px;
-        position: absolute;
-        top: 54px;
-    }
-    .overlay {
-        width: 0;
-        height: 100%;
-        position: fixed;
-        top: 0;
-        left: 0;
-        background: rgba(0,0,0,.9);
-        z-index: 1;
-        overflow-x: hidden;
-        transition: .2s;
-    }
-    .overlay-content {
-        position: absolute;
-        width: 100%;
-        text-align: center;
-        margin-top: 120px;
-    }
-    .overlay a {
-        display: block;
-        text-decoration: none;
-        font-size: 30px;
-        text-transform: uppercase;
-        letter-spacing: 3px;
-        color: #fff;
-        padding: 20px 0;
-    }
-    .overlay a:first-child {
-        padding-top: 0;
-    }
-    .overlay a:last-child {
-        padding-bottom: 0;
-    }
-    .overlay .closebtn {
-        font-size: 40px;
-        float: right;
-        margin-right: 50px;
-        margin-top: 50px;
-    }
-    .sticky .mobile-menu span {
-        float: right;
-        font-size: 30px;
-        cursor: pointer;
-        right: 50px;
-        position: absolute;
-        top: 20px;
-    }
-    .sticky .overlay .closebtn {
-        margin-top: 15px;
-    }
-
-
-
-
     .editor-choice a span {
         padding: 6px 10px;
     }
-
-
-
-
-
-
     .slider-text-area {
         width: 100%;
         padding-top: 150px;
@@ -123,8 +56,6 @@
     .trust-section-single-box:last-child {
         margin: 10px auto;
     }
-
-
 
     .features-section {
         padding: 40px 0;
@@ -488,6 +419,217 @@
 @media only screen and (min-width: 576px) {
     .container {
         max-width: 540px;
+    }
+    .mobile-menu {
+        display: block;
+    }
+    .nav-right {
+        display: none;
+    }
+    .editor-choice a img {
+        width: 60px;
+        height: 48px;
+    }
+
+    .editor-choice a span {
+        padding: 6px 10px;
+    }
+    .slider-text-area {
+        width: 100%;
+        margin-left: 0;
+    }
+    .slider-text-area h1 {
+        font-size: 50px;
+        margin: 0 0 30px 0;
+    }
+    .trusted-section-content-area {
+        width: 100%;
+        margin: 0;
+    }
+    .trust-section-box {
+        flex-wrap: wrap;
+    }
+    .trust-section-single-box:last-child {
+        width: 100%;
+        text-align: center;
+    }
+    .features-right-content {
+        width: 50%;
+        margin: 0;
+    }
+    .features-content-area {
+        width: 100%;
+    }
+    .features-left-content {
+        display: none;
+    }
+    .features-right-content {
+        width: 100%;
+    }
+    .features-section-title {
+        text-align: center;
+    }
+    .jackpot-section-title-left-content {
+        padding-left: 0;
+        padding-right: 10px;
+    }
+    .jackpot-section-title-left-content h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .jackpot-section-main-content {
+        flex-direction: column;
+    }
+    .jackpot-section-main-content-single-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .jackpot-section-main-content-single-item:nth-child(2) {
+        margin: 0;
+    }
+    .single-item-icon {
+        margin-right: 30px;
+        margin-bottom: 0;
+    }
+    .jackpot-section-main-content-single-item {
+        margin: 20px 0;
+    }
+    .jackpot-section-main-content-single-item:first-child {
+        margin-top: 0;
+    }
+    .jackpot-section-main-content-single-item:last-child {
+        margin-bottom: 0;
+    }
+
+    .code-integration-section-left-content {
+        display: none;
+    }
+    .code-integration-section-right-content {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .choose-your-app-section-title {
+        width: 100%;
+        padding: 0;
+        text-align: left;
+    }
+    .choose-your-app-section-title h2 {
+        padding: 0;
+    }
+    .choose-your-app-section-title .lead {
+        padding: 0;
+    }
+
+    .choose-your-app-section-main-content {
+        flex-direction: column;
+        text-align: left;
+    }
+    .app-section-single-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 20px 0;
+    }
+    .app-section-single-item:first-child {
+        margin-top: 0;
+    }
+    .app-section-single-item:last-child {
+        margin-bottom: 0;
+    }
+    .app-section-single-item:nth-child(2) {
+        margin: 0;
+    }
+    .app-section-single-item-icon {
+        margin: 0;
+        margin-right: 30px;
+    }
+
+    .unlimited-features-section-left-content {
+        width: 100%;
+        margin: 0;
+    }
+    .unlimited-features-section-right-content {
+        display: none;
+    }
+    .unlimited-section-title {
+        padding: 0;
+    }
+    .unlimited-section-content-box-single-item {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .unlimited-section-box-single-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .unlimited-section-box-single-item:nth-child(even) {
+        margin-left: 0;
+    }
+    .unlimited-section-box-single-item {
+        margin: 20px 0;
+    }
+    .unlimited-section-box-single-item:first-child {
+        margin-top: 0;
+    }
+    .unlimited-section-box-single-item:last-child {
+        margin-bottom: 0;
+    }
+    .unlimited-section-box-icon {
+        margin: 0;
+        margin-right: 30px;
+    }
+
+    .pricing-section-title {
+        width: 100%;
+        margin: 0;
+        text-align: left;
+        margin-bottom: 40px;
+    }
+    .card {
+        display: block;
+        width: 100%;
+        margin: 0;
+        margin: 20px 0;
+    }
+    .card:first-child {
+        margin-top: 0;
+    }
+    .card:last-child {
+        margin-bottom: 0;
+    }
+
+    .testimonial-left-content {
+        display: none;
+    }
+    .testimonial-right-content {
+        width: 100%;
+    }
+    .faq-title-section {
+        width: 100%;
+        margin: 0;
+        text-align: left;
+        margin-bottom: 30px;
+    }
+    .accordion-section {
+        width: 100%;
+    }
+    .accordion-btn:after {
+        height: 20px;
+        width: 26px;
+    }
+    .download-content-section-right {
+        display: none;
+    }
+    .download-content-section-left {
+        width: 100%;
+    }
+    .footer-content-area {
+        width: 100%;
     }
 }
 

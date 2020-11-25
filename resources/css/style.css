@@ -165,8 +165,67 @@ nav.sticky {
     color: #242f51;
     margin: 0;
 }
+/*MOBILE MENU AREA*/
 .mobile-menu {
     display: none;
+}
+
+.mobile-menu span {
+    float: right;
+    font-size: 30px;
+    cursor: pointer;
+    right: 60px;
+    position: absolute;
+    top: 54px;
+}
+.overlay {
+    width: 0;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,.9);
+    z-index: 1;
+    overflow-x: hidden;
+    transition: .2s;
+}
+.overlay-content {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    margin-top: 120px;
+}
+.overlay a {
+    display: block;
+    text-decoration: none;
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #fff;
+    padding: 20px 0;
+}
+.overlay a:first-child {
+    padding-top: 0;
+}
+.overlay a:last-child {
+    padding-bottom: 0;
+}
+.overlay .closebtn {
+    font-size: 40px;
+    float: right;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+.sticky .mobile-menu span {
+    float: right;
+    font-size: 30px;
+    cursor: pointer;
+    right: 50px;
+    position: absolute;
+    top: 20px;
+}
+.sticky .overlay .closebtn {
+    margin-top: 15px;
 }
 
 /*********************************/
