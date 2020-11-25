@@ -1,5 +1,5 @@
 /*MINIMUM SCREEN SIZE 0PX AND MAXIMUM SCREEN SIZE 576PX|[ --0PX > 575px-- ]|*/
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 575px) {
     .container {
         max-width: 300px;
     }
@@ -14,12 +14,13 @@
     }
     .slider-text-area {
         width: 100%;
-        padding-top: 150px;
+        padding-top: 120px;
         margin-left: 0;
     }
     .slider-text-area h1 {
         font-size: 32px;
         line-height: 50px;
+        margin: 0 0 24px 0;
     }
     .text-box-btn {
         flex-direction: column;
@@ -41,12 +42,16 @@
 
 
     .trust-section {
-        padding-top: 60px;
+        padding-top: 40px;
         padding-bottom: 40px;
     }
     .trusted-section-content-area {
         width: 100%;
         margin: 0;
+    }
+
+    .trust-section-title {
+        margin-bottom: 30px;
     }
 
     .trust-section-box {
@@ -58,7 +63,7 @@
     }
 
     .features-section {
-        padding: 40px 0;
+        padding: 30px 0;
     }
     .features-left-content {
         display: none;
@@ -68,6 +73,9 @@
         width: 100%;
         margin: 0;
         text-align: center;
+    }
+    .features-section-title {
+        margin-bottom: 40px;
     }
     .features-section-title h2 {
         font-size: 30px;
@@ -81,6 +89,13 @@
     .features-text-box-single-item {
         display: flex;
         flex-direction: column;
+        margin: 10px;
+    }
+    .features-text-box-single-item:first-child {
+        margin-top: 0;
+    }
+    .features-text-box-single-item:last-child {
+        margin-bottom: 0;
     }
 
     .features-text-box-icon {
@@ -92,6 +107,7 @@
 
     .jackpot-section-title {
         flex-direction: column;
+        margin-bottom: 40px;
     }
 
 
@@ -108,6 +124,7 @@
         font-size: 30px;
         text-align: center;
         line-height: 40px;
+        padding-bottom: 30px;
     }
     .jackpot-section-title-right-content {
         width: 100%;
@@ -126,7 +143,7 @@
         display: flex;
         flex-direction: column;
         text-align: center;
-        margin: 20px 0;
+        margin: 30px 0;
     }
     .jackpot-section-main-content-single-item:first-child{
         margin-top: 0;
@@ -140,6 +157,9 @@
     .single-item-icon {
         margin: 0;
     }
+    .single-item-content h4 {
+        line-height: 46px;
+    }
 
     .code-integration-main-section {
         flex-direction: column;
@@ -149,7 +169,7 @@
 
 
     .code-integration-section {
-        padding: 40px 0;
+        padding: 30px 0;
     }
     .code-integration-section-left-content {
         display: none;
@@ -177,6 +197,7 @@
         font-size: 30px;
         padding: 0;
         line-height: 40px;
+        margin-bottom: 20px;
     }
     .choose-your-app-section-title .lead {
         padding: 0;
@@ -192,7 +213,7 @@
         margin-bottom: 0;
     }
     .app-section-single-item {
-        margin: 20px;
+        margin: 30px 0;
     }
     .app-section-single-item:first-child {
         margin-top: 0;
@@ -204,10 +225,22 @@
         margin-left: 0;
         margin-right: 0;
     }
-    .choose-your-app-section-main-content:nth-child(1) {
-        margin-bottom: 20px;
+    .app-section-single-item-text h4 {
+        line-height: 46px;
     }
 
+
+    .choose-your-app-section-main-content {
+        margin: 30px 0;
+    }
+
+    .choose-your-app-section-main-content:first-child {
+        margin-top: 0;
+    }
+
+    .choose-your-app-section-main-content:last-child {
+        margin-bottom: 0;
+    }
 
 
     .unlimited-features-section {
@@ -340,7 +373,7 @@
 
 
     .faq-section {
-        padding: 50px 0;
+        padding: 30px 0;
     }
     .faq-title-section {
         width: 100%;
@@ -363,6 +396,7 @@
         flex-direction: column;
         line-height: 30px;
         padding: 20px 0;
+        font-size: 16px;
     }
     .accordion-btn:after {
         margin-top: 20px;
@@ -416,7 +450,7 @@
 }
 
 /*MINIMUM SCREEN SIZE 0PX AND MAXIMUM SCREEN SIZE 576PX|[ --576PX > 767px-- ]|*/
-@media only screen and (min-width: 575px) and (max-width: 767px) {
+@media only screen and (min-width: 576px) and (max-width: 767px) {
     .container {
         max-width: 540px;
     }
@@ -645,6 +679,283 @@
     .nav-right {
         display: none;
     }
+    .text-box-btn {
+        align-items: center;
+    }
+    .slider-text-area h1 {
+        font-size: 42px;
+    }
+    .btn {
+        padding: 16px 20px;
+    }
+    .trust-section {
+        padding: 60px 0;
+    }
+    .trust-section-box {
+        flex-wrap: wrap;
+    }
+    .trust-section-single-box {
+        margin: 10px 0;
+    }
+    .trusted-section-content-area {
+        width: 100%;
+        margin: 0;
+    }
+
+    .features-section {
+        padding: 30px 0;
+    }
+    .features-left-content {
+        display: none;
+    }
+    .features-right-content {
+        width: 100%;
+        margin: 0;
+    }
+    .features-section-title {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .features-section-title .lead {
+        padding: 0 60px;
+    }
+
+
+
+
+    .jackpot-section {
+        padding: 30px 0;
+    }
+    .jackpot-section-title {
+        margin-bottom: 40px;
+    }
+    .jackpot-section-title-left-content h2 {
+        font-size: 30px;
+    }
+    .jackpot-section-main-content {
+        flex-direction: column;
+    }
+    .jackpot-section-main-content-single-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .jackpot-section-main-content-single-item:nth-child(2) {
+        margin: 0;
+    }
+    .single-item-icon {
+        margin: 0;
+        margin-right: 30px;
+    }
+    .jackpot-section-main-content-single-item {
+        margin: 20px 0;
+    }
+    .jackpot-section-main-content-single-item:first-child {
+        margin-top: 0;
+    }
+    .jackpot-section-main-content-single-item:last-child {
+        margin-bottom: 0;
+    }
+
+
+
+    .code-integration-section-left-content {
+        display: none;
+    }
+    .code-integration-section-right-content {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+
+
+    .choose-your-app {
+        padding: 60px 0;
+    }
+    .choose-your-app-section-title {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    .choose-your-app-section-main-content {
+        flex-direction: column;
+    }
+    .app-section-single-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+    }
+    .app-section-single-item:nth-child(2) {
+        margin: 0;
+    }
+    .app-section-single-item {
+        margin: 20px 0;
+    }
+    .app-section-single-item:first-child {
+        margin-top: 0;
+    }
+    .app-section-single-item:last-child {
+        margin-bottom: 0;
+    }
+    .app-section-single-item-icon {
+        margin-bottom: 0;
+        margin-right: 30px;
+    }
+
+    .unlimited-features-section {
+        padding: 60px 0;
+    }
+    .unlimited-features-section-right-content {
+        display: none;
+    }
+    .unlimited-features-section-left-content {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+    .unlimited-section-title {
+        padding: 0;
+    }
+    .unlimited-section-title .lead-extends {
+        padding: 0 100px;
+    }
+    .unlimited-section-content-box-single-item {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .unlimited-section-box-single-item {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .unlimited-section-box-single-item {
+        text-align: left;
+    }
+    .unlimited-section-box-single-item:nth-child(even) {
+        margin-left: 0;
+    }
+    .unlimited-section-box-single-item {
+        margin: 20px 0;
+    }
+    .unlimited-section-box-single-item:first-child {
+        margin-top: 0;
+    }
+    .unlimited-section-box-single-item:last-child {
+        margin-bottom: 0;
+    }
+    .unlimited-section-box-icon {
+        margin-bottom: 0;
+        margin-right: 30px;
+    }
+    .see-all-btn {
+        padding: 16px 40px;
+    }
+
+    .pricing-section {
+        padding: 40px 0;
+    }
+    .pricing-section-title {
+        width: 100%;
+        margin: 0;
+    }
+    .pricing-section-title .lead-extends {
+        padding: 0 40px;
+        margin-bottom: 30px;
+    }
+    .packages-items {
+        width: 100%;
+    }
+
+
+    .testimonial-section {
+        padding: 40px 0;
+    }
+
+    .testimonial-left-content {
+        display: none;
+    }
+    .testimonial-right-content {
+        width: 100%;
+        text-align: center;
+    }
+    .testimonial-section-title .lead-extends {
+        padding: 0 60px;
+    }
+    .testimonial-single-item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .faq-section {
+        padding: 40px 0;
+    }
+
+    .faq-title-section {
+        width: 100%;
+        text-align: center;
+    }
+    .faq-title-section .lead-extends {
+        padding: 0 90px;
+    }
+    .accordion-btn {
+        line-height: 36px;
+    }
+    .accordion-btn:after {
+        width: 30px;
+    }
+
+
+
+    section.download-section {
+        padding: 40px 0;
+    }
+    .download-content-section-right {
+        display: none;
+    }
+    .download-content-section-left {
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+    .download-content-section-left .lead-extends {
+        padding: 0 80px;
+    }
+
+
+
+    .footer-section {
+        padding: 40px 0;
+    }
+    .footer-content-area {
+        width: 100%;
+    }
+    .social-icon {
+        margin-bottom: 30px;
+    }
+
+
+
+
+    /*OKAY BRUH*/
+    /*OKAY BRUH*/
+    /*OKAY BRUH*/
+    /*OKAY BRUH*/
+    /*OKAY BRUH*/
+    /*OKAY BRUH*/
+    /*OKAY BRUH*/
+    /*OKAY BRUH*/
+    /*OKAY BRUH*/
+    /*OKAY BRUH*/
+    /*OKAY BRUH*/
+    /*OKAY BRUH*/
+    /*OKAY BRUH*/
+    /*OKAY BRUH*/
 }
 
 /*MINIMUM SCREEN SIZE 769PX AND MAXIMUM SCREEN SIZE 992PX|[ --992PX > 1199px-- ]|*/
@@ -658,6 +969,23 @@
     .nav-right {
         display: flex;
     }
+    .packages-items {
+        width: 80%;
+    }
+    /*OKAY BRUH*/
+    /*OKAY BRUH*/
+    /*OKAY BRUH*/
+    /*OKAY BRUH*/
+    /*OKAY BRUH*/
+    /*OKAY BRUH*/
+    /*OKAY BRUH*/
+    /*OKAY BRUH*/
+    /*OKAY BRUH*/
+    /*OKAY BRUH*/
+    /*OKAY BRUH*/
+    /*OKAY BRUH*/
+    /*OKAY BRUH*/
+    /*OKAY BRUH*/
 }
 
 /*MINIMUM SCREEN SIZE 993PX AND MAXIMUM SCREEN SIZE 1200PX|[ --993px > 1200PX-- ]|*/
@@ -665,4 +993,18 @@
     .container {
         max-width: 1170px;
     }
+    /*OKAY BRUH*/
+    /*OKAY BRUH*/
+    /*OKAY BRUH*/
+    /*OKAY BRUH*/
+    /*OKAY BRUH*/
+    /*OKAY BRUH*/
+    /*OKAY BRUH*/
+    /*OKAY BRUH*/
+    /*OKAY BRUH*/
+    /*OKAY BRUH*/
+    /*OKAY BRUH*/
+    /*OKAY BRUH*/
+    /*OKAY BRUH*/
+    /*OKAY BRUH*/
 }
